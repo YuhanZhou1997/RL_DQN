@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 19 10:01:09 2020
-
-@author: Administrator
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 22 16:41:37 2020
-
-@author: Administrator
-"""
 
 # -*- coding: utf-8 -*-
 import numpy as np
@@ -198,7 +185,7 @@ tf.reset_default_graph()
 
 #F:[[s,a,s',r]]
 
-#F为一个矩阵，包含了所有[s,a,s',r]转移状态
+#F为预先存下来的一个矩阵，包含了所有[s,a,s',r]转移状态
 F=np.array([[]])
 
 
